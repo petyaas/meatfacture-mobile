@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "891625464678",
+    "firebase_url": "https://meatfacture-59238-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "meatfacture-59238",
+    "storage_bucket": "meatfacture-59238.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891625464678:android:c05838bdcf40b50026dea7",
+        "android_client_info": {
+          "package_name": "com.meatfacture.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891625464678-6865tqe08v30qr6r4vkiu9s6uc6knqvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1K6s5xbEDaLmvDDxsrKSLjJtnVNvxOe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891625464678-6865tqe08v30qr6r4vkiu9s6uc6knqvg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "891625464678-pbfqnuujvi5o7vdanu7pfeb1bu5h1c8p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.meatfacture.ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891625464678:android:d7a7b8bd3fdb45e626dea7",
+        "android_client_info": {
+          "package_name": "com.meatfacture.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891625464678-6865tqe08v30qr6r4vkiu9s6uc6knqvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1K6s5xbEDaLmvDDxsrKSLjJtnVNvxOe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891625464678-6865tqe08v30qr6r4vkiu9s6uc6knqvg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "891625464678-pbfqnuujvi5o7vdanu7pfeb1bu5h1c8p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.meatfacture.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
