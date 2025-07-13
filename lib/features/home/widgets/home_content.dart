@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'dart:io';
 import 'package:easy_localization/src/public_ext.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:smart/bloc_files/favorite_product_bloc.dart';
@@ -32,6 +33,7 @@ import 'package:smart/pages/shopping_list/shopping_lists_page.dart';
 import 'package:smart/theme/app_screen.dart';
 
 import '../../../bloc_files/assortment_recommendations_bloc.dart';
+import '../../../pages/recommendation_page.dart';
 import '../../addresses/addresses_delivery/bloc/addresses_client_bloc.dart';
 import '../../../bloc_files/im_in_shop_bloc.dart';
 import '../../../bloc_files/stories_list_bloc.dart';
@@ -290,6 +292,27 @@ class _HomeContentState extends State<HomeContent> {
                     SizedBox(height: heightRatio(size: 20, context: context)),
                     RecommendationListWidget(isHomePage: true),
                     SizedBox(height: heightRatio(size: 33, context: context)),
+                    ElevatedButton(
+                      onPressed: ()
+                      => Navigator.push(
+                        context,
+                        CupertinoPageRoute(
+                          title: "Recomendations",
+                          builder: (context) => RecomendationsPage(),
+                        ),
+                      ),
+                      child: Text(
+                        "RecommendationsText".tr(),
+                        style: appTextStyle(
+                          fontSize: heightRatio(
+                            size: 14,
+                            context: context,
+                          ),
+                          color: greyForTegs,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
